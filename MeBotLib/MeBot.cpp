@@ -17,6 +17,8 @@ Motor::Motor(int enableForwardPinField, int phaseReversePinField, String motorCo
 }
 
 void Motor::setup() {
+  
+
   pinMode(enableForwardPin, OUTPUT);
   pinMode(phaseReversePin, OUTPUT);
 }
